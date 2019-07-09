@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--   
+		 Name: HalloweenIndex
+         Date: June 10th 2019
+       Author: Aaron Ly
+  Description: Halloween-based web page which will function as a store page.
+-->
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<!-- By referencing normalize.css first and then our main.css, we overwrite normalize with our formatting afterwards -->
+	<link href="styles/normalize.css" type="text/css" rel="stylesheet">
+	<link href="styles/main.css" type="text/css" rel="stylesheet">
+	<title>Halloween Store</title>
+	<img src="./images/pumpkin.gif" align="left" class="headerimg"></img>
+	
+</head>
+	
+<body>
+	<!-- We assign the class "title" to this h2 so we can target it specifically for formmatting later -->
+	<h2 class="title">
+		The Halloween Store
+	</h2>
+	<!-- We assign the class "subtitle" to do the same, however we do not format this h3 anyways, but it is there for future use -->
+	<h3 class="subtitle">
+		For the little Goblin in all of us!
+	</h3>
+
+	<h1>
+		Welcome to my site. Please come in and stay awhile.
+	</h1>
+
+	<!-- Currently nothing is done using the content class -->
+	<div class="content">
+		<p>
+			I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.
+		</p>
+		
+		<p>
+			If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.
+		</p>
+	</div>
+
+	<h2>
+		Product categories
+	</h2>
+	
+	<div>
+		<!-- Our list elements do not link to any real pages currently, however that can be added in the future within the products folder -->
+		<ul>
+			<li><a class="links" href="./products/props.html">Props</a></li>
+			<li><a class="links" href="./products/costumes.html">Costumes</a></li>
+			<li><a class="links" href="./products/sfx.html">Special Effects</a></li>
+			<li><a class="links" href="./products/masks.html">Masks</a></li>
+		</ul>
+	</div>
+
+	<h3>
+		My guarantee
+	</h3>
+
+	<div>
+		<!-- We bold a specific part directly within the html file within that paragraph -->
+		<p>
+			If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b>					
+		</p>
+	</div>
+
+</body>
+
+<!-- Our footer uses the entity-code for a copyright symbol -->
+<footer>
+&copy; 2016 Ben Murach
+</footer>
+
+</html>
