@@ -1,0 +1,65 @@
+/*       Name: HalloweenCSS
+         Date: June 10th 2019
+       Author: Aaron Ly
+  Description: Formatting for a halloween-based web page.
+*/
+
+/* in the event that you want to format the head, left this here for that occasion */ 
+head {
+}
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+/* we're able to format just the first letter of any h1 section using this */
+h1::first-letter{
+	font-size: 52px;
+	background: linear-gradient (black, orange);
+
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+/* current footer is centre aligned and quite small */
+footer {
+	font-size: 12px;
+	text-align: center;
+}
+
+/* if you wish the change how the formatting for the ordered list appears */
+.links {
+	font-weight: bold;
+	color: orange;
+	line-height: 30px;
+}
+
+.headerimg {
+	padding-right: 24px;
+}
+
+/* our formatting for the title, we use 2px drop shadow with a pitch black colour code as well as italicize for the formatting */
+.title {
+	color: orange;
+	font-style: italic;
+	text-shadow: 2px 2px #000000;
+}
+
+/* just like the header, this is left in the event that someone wants to format the subtitle */
+.subtitle{
+}
+
+/* this is how we change the colour of the hovering and focus of the links within the ordered list section of our index */
+a:focus, a:hover {
+	color: green;
+}
