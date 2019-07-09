@@ -13,12 +13,14 @@
 	<link href="styles/normalize.css" type="text/css" rel="stylesheet">
 	<link href="styles/main.css" type="text/css" rel="stylesheet">
 	<title>Halloween Store</title>
-	<img src="./images/pumpkin.gif" align="left" class="headerimg"></img>
-	
+
 </head>
 	
 <body>
+	<div class="whole">
+	<header>
 	<!-- We assign the class "title" to this h2 so we can target it specifically for formmatting later -->
+	<img src="./images/pumpkin.gif" align="left" class="headerimg"></img>
 	<h2 class="title">
 		The Halloween Store
 	</h2>
@@ -26,9 +28,24 @@
 	<h3 class="subtitle">
 		For the little Goblin in all of us!
 	</h3>
-
+	</header>
+	
+	
+	
+	
+	<div class="sidebar">
+		<!-- Our list elements do not link to any real pages currently, however that can be added in the future within the products folder -->
+		<ul>
+		<li><a class="links" href="./products/props.html">Props</a></li>
+		<li><a class="links" href="./products/costumes.html">Costumes</a></li>
+		<li><a class="links" href="./products/sfx.html">Special FX</a></li>
+		<li><a class="links" href="./products/masks.html">Masks</a></li>
+		</ul>
+	</div>
+	
+	<div class="maintext">
 	<h1>
-		Welcome to my site. Please come in and stay awhile.
+		Welcome to my site. <br>Please come in and stay awhile.
 	</h1>
 
 	<!-- Currently nothing is done using the content class -->
@@ -43,18 +60,11 @@
 	</div>
 
 	<h2>
-		Product categories
+		Product of the Week
 	</h2>
 	
-	<div>
-		<!-- Our list elements do not link to any real pages currently, however that can be added in the future within the products folder -->
-		<ul>
-			<li><a class="links" href="./products/props.html">Props</a></li>
-			<li><a class="links" href="./products/costumes.html">Costumes</a></li>
-			<li><a class="links" href="./products/sfx.html">Special Effects</a></li>
-			<li><a class="links" href="./products/masks.html">Masks</a></li>
-		</ul>
-	</div>
+	<img src="./images/cat1.jpg"></img><br>
+	<a class="links" href="./slides/products/cat.html">20'' Deranged Cat</a>
 
 	<h3>
 		My guarantee
@@ -66,12 +76,14 @@
 			If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b>					
 		</p>
 	</div>
-
+	
+	</div>
+	
+	<!-- Our footer uses the entity-code for a copyright symbol -->
+	<footer>
+		&copy; 2016 Ben Murach
+	</footer>
+	
+	</div>
 </body>
-
-<!-- Our footer uses the entity-code for a copyright symbol -->
-<footer>
-&copy; 2016 Ben Murach
-</footer>
-
 </html>

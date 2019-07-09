@@ -8,8 +8,18 @@
 head {
 }
 
+
+header {
+	width: 800px;
+	margin: auto;
+	border: 1px black solid;
+	background-image: linear-gradient(45deg, white 25%, orange, black);
+
+}
+
 body {
 	font-family: sans-serif;
+	background-image: url(../images/bats.gif);
 }
 
 h1 {
@@ -34,7 +44,24 @@ h3 {
 /* current footer is centre aligned and quite small */
 footer {
 	font-size: 12px;
+	margin: auto;
+	width: 800px;
 	text-align: center;
+	border: 2px solid black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: linear-gradient(-45deg, white 25%, orange, black);
+}
+.maintext {
+	padding-left: 160px;
+}
+
+.whole {
+	width: 800px;
+	margin: auto;
+	background-color: white;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px #000000;
 }
 
 /* if you wish the change how the formatting for the ordered list appears */
@@ -45,14 +72,23 @@ footer {
 }
 
 .headerimg {
-	padding-right: 24px;
+	padding-right: 22px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+	padding-top: 8px;
+}
+
+.sidebar {
+	padding-left: 4px;
+	padding-top: 4px;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
 }
 
 /* our formatting for the title, we use 2px drop shadow with a pitch black colour code as well as italicize for the formatting */
 .title {
-	color: orange;
-	font-style: italic;
-	text-shadow: 2px 2px #000000;
+
 }
 
 /* just like the header, this is left in the event that someone wants to format the subtitle */
